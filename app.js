@@ -1,0 +1,5 @@
+const express = require("express")
+const app = express()
+app.use("/",express.static("../hoyle95.github.io/"))
+app.use("/p5-sandbox/",express.static("../p5-sandbox/"))
+app.listen(80)
